@@ -18,3 +18,5 @@ Project 3 (multiagent): Pacman Part 2
 Project 4 (Project4): Test/Train Perceptrons
   - clean.py: takes a CSV that has information from a selected 600 college students, and cleans the data, and then creates a new csv with the cleaned data
   - predict.py: Does a 80% train, 20% test on the cleaned CSV, and makes a perceptron to predict more results. The prediction is stored in weights.txt (t threshold is first line, and then it goes to data)
+
+Each Project has an autograder.py that automatically grades the projects based on what was required. Run this script with python3 autograder.py
